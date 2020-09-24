@@ -108,7 +108,7 @@
     <conf name="free" type="2">
       <toolsSet>
         <developmentServer>localhost</developmentServer>
-        <targetDevice>PIC16F15356</targetDevice>
+        <targetDevice>PIC16LF15356</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
         <platformTool>noID</platformTool>
@@ -292,16 +292,16 @@
     <conf name="pro" type="2">
       <toolsSet>
         <developmentServer>localhost</developmentServer>
-        <targetDevice>PIC16F15356</targetDevice>
+        <targetDevice>PIC16LF15356</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>PICkit3PlatformTool</platformTool>
+        <platformTool>noID</platformTool>
         <languageToolchain>XC8</languageToolchain>
-        <languageToolchainVersion>1.45</languageToolchainVersion>
+        <languageToolchainVersion>2.10</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="PIC16F1xxxx_DFP" vendor="Microchip" version="1.4.119"/>
+        <pack name="PIC16F1xxxx_DFP" vendor="Microchip" version="1.2.99"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
@@ -461,7 +461,7 @@
       <XC8-config-global>
         <property key="advanced-elf" value="true"/>
         <property key="gcc-opt-driver-new" value="false"/>
-        <property key="gcc-opt-std" value="--std=c89"/>
+        <property key="gcc-opt-std" value="-std=c90"/>
         <property key="gcc-output-file-format" value="dwarf-3"/>
         <property key="omit-pack-options" value="false"/>
         <property key="omit-pack-options-new" value="1"/>
