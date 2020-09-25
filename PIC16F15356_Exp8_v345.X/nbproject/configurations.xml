@@ -108,7 +108,7 @@
     <conf name="free" type="2">
       <toolsSet>
         <developmentServer>localhost</developmentServer>
-        <targetDevice>PIC16LF15356</targetDevice>
+        <targetDevice>PIC16F15356</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
         <platformTool>noID</platformTool>
@@ -292,7 +292,7 @@
     <conf name="pro" type="2">
       <toolsSet>
         <developmentServer>localhost</developmentServer>
-        <targetDevice>PIC16LF15356</targetDevice>
+        <targetDevice>PIC16F15356</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
         <platformTool>noID</platformTool>
